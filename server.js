@@ -14,7 +14,7 @@ var express = require('express'),
 var app = express();
 
 // define port for which to listen to connections on; automatically select port, OR port 3000.
-var PORT = process.env.port || 3000;
+var PORT = process.env.port;
 
 // create cookie
 app.use(sessions({
