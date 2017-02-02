@@ -1,0 +1,201 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    /*margin: 0;*/
+}
+
+/* <---- Nav Bar ----> */
+
+.navbar {
+    /*background: url(../images/pattern.png) repeat;*/
+    background-color: white;
+    opacity: 1;
+    margin-bottom: 0;
+    position: fixed;
+    width: 100%;
+    border: none;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 80px;
+    height: 60px;
+    padding-top: 0;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #808080;
+}
+
+
+
+
+
+/* <---- Intro  ----> */
+
+/*@media (max-width: 595px) {
+    .headings  h1 {
+        font-size: 50px;
+    }
+}*/
+@media only screen and (min-width: 600px) {
+    .headings h1 {
+        font-size: 50em;
+    }
+}
+#intro {
+    /*min-height: 698px;*/
+    /*height: 100vh;*/
+    width: 100%;
+    /*position: relative;*/
+    background: url(/images-fonts/background1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.headings {
+    margin: 20% auto;
+    font-family:
+    padding-bottom: 10px;
+    /*position: absolute;*/
+    /*font-size: 30%;*/
+    /*background-color: grey;*/
+    /*width: 100%;*/
+    text-align: center;
+    /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+    font-family: 'Syncopate', sans-serif;
+}
+
+.headings h1 {
+    font-size: 6.2em;
+    /*text-align: center;*/
+    /*text-shadow: -.5px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
+    /*font-family: 'Syncopate', sans-serif;*/
+}
+
+.headings h4 {
+    font-size: 3em;
+    font-family: 'Syncopate', sans-serif;
+    font-style: italic;
+    padding-top: 17px;
+    padding-bottom: 8px;
+}
+
+.headerIcons img {
+    padding: 0px 40px;
+    margin: 10px auto;
+    height: 4em;
+}
+
+
+/* <---- About  ----> */
+
+@media (min-width: 768px) {
+    #about h4 {
+        line-height: 30px;
+    }
+}
+@media (min-width: 992px) {
+    #about h4 {
+        line-height: 40px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    #about h4 {
+        line-height: 46px;
+    }
+}
+
+#about {
+    background: url(/images-fonts/background3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*height: 800px*/
+    text-align: center;
+    /*line-height: 5px;*/
+    /*max-height: 80%;*/
+
+}
+
+.moveSkills {
+    margin-left: 80px;
+}
+#about h1 {
+    /*padding-top: 15px;*/
+    font-size: 55px;
+    /*font-family: 'Syncopate', sans-serif;*/
+    padding-top: 10px;
+
+    font-family: 'Josefin Sans';
+}
+
+#about h4 {
+    /*line-height: 33px;*/
+    text-align: justify;
+    padding-top: 5px;
+    font-size: 20px;
+    max-height: 80%;
+    font-family: 'Josefin Sans';
+}
+
+#about h4 > strong {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(64, 35, 154);
+}
+
+
+#about ul {
+    list-style: none;
+    /*text-align: center;
+    font-size: 26px;
+    line-height: 40px;
+    padding-right: 36px;
+    font-weight: 400;
+    text-shadow: 10px;
+    padding-top: 17px;*/
+}
+
+#about li {
+    height: 25%;
+    padding: none;
+    text-align: center;
+    /*margin-left: 30px;*/
+    margin: -10px auto -11px 35px;
+}
+
+#about img {
+    height: 72px;
+    width: 80px;
+    margin: 5px auto;
+}
+
+#about h5 {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+/* <---- Projects ----> */
+
+#projects {
+    background: url(/images-fonts/background2.jpg);
+    text-align: center;
+}
+
+#projects h1 {
+    padding: 10px;
+    font-family: 'Josefin Sans';
+    font-size: 55px;
+}
